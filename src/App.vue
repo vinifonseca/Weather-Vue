@@ -4,7 +4,7 @@
 
     <div v-if="!loading">
       <div class="header-icons">
-        <md-button class="md-icon-button md-accent"  href="https://www.w3schools.com">       
+        <md-button class="md-icon-button md-accent"  href="https://github.com/vinifonseca/Vue-Weather">       
             <img src="./assets/github.svg" alt="git">            
         </md-button>
 
