@@ -37,7 +37,7 @@ export default {
   methods: {
     inputChange: function(value){
       this.loading = true;
-			axios.get('http://api.apixu.com/v1/current.json?key=b04cf2c9a9404ba6ad8201832192002&q=' + value)
+			axios.get('https://api.apixu.com/v1/current.json?key=b04cf2c9a9404ba6ad8201832192002&q=' + value)
       .then(response => {
         this.cardsList.push(response.data); 
       })
@@ -50,7 +50,7 @@ export default {
   },
   mounted() {
     this.loading = true;
-    axios.get('http://api.apixu.com/v1/current.json?key=b04cf2c9a9404ba6ad8201832192002&q=auto:ip')
+    axios.get('https://api.apixu.com/v1/current.json?key=b04cf2c9a9404ba6ad8201832192002&q=auto:ip')
       .then(response => {
         this.cardsList.push(response.data); 
       })
