@@ -4,12 +4,8 @@
 
     <div v-if="!loading">
       <div class="header-icons">
-        <md-button class="md-icon-button md-accent"  href="https://github.com/vinifonseca/Vue-Weather">       
+        <md-button class="md-icon-button md-accent"  href="https://github.com/vinifonseca/Weather-Vue">       
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="git">            
-        </md-button>
-
-        <md-button class="md-icon-button" href="https://www.linkedin.com/in/vinicius-fonseca-3b7ab2a6/">        
-            <img src="https://infoiaic.com/images/linkdin.png" alt="linkdin">         
         </md-button>
       </div>     
 
@@ -67,7 +63,7 @@ export default {
 
 .header-icons{  
   display: inline;   
-  margin-left: 85%;
+  margin-left: 90%;
 }
 .md-progress-spinner{
   margin-top: 40vh;
