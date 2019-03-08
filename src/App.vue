@@ -5,11 +5,11 @@
     <div v-if="!loading">
       <div class="header-icons">
         <md-button class="md-icon-button md-accent"  href="https://github.com/vinifonseca/Vue-Weather">       
-            <img src="./assets/github.svg" alt="git">            
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="git">            
         </md-button>
 
         <md-button class="md-icon-button" href="https://www.linkedin.com/in/vinicius-fonseca-3b7ab2a6/">        
-            <img src="./assets/linkedin.svg" alt="linkdin">         
+            <img src="https://infoiaic.com/images/linkdin.png" alt="linkdin">         
         </md-button>
       </div>     
 
