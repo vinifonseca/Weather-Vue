@@ -1,6 +1,6 @@
 # Check Weather
 
-> A Vue.js project to check the weather in your country
+> A Vue.js project to check the weather in any country
 
 ## Build Setup
 
